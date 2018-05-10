@@ -1,0 +1,66 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:760px) {
+
+.header{
+  min-height: 40px;
+}
+
+
+.navigate a{
+  width: 50px;
+  padding: 15px;
+}
+
+.logo{
+  height: 40px;
+}
+
+.itsme{
+  width:100%;
+  order:-1;
+}
+
+.intro, .projectcont{
+  width:100%;
+}
+
+.row{
+  display: inline;
+}
+
+}
+
+@media screen and (min-width:761px) and (max-width:919px) {
+
+.header{
+  min-height: 40px;
+}
+
+.navigate a{
+  width: 80px;
+  padding: 25px;
+}
+
+.logo{
+  height: 70px;
+}
+
+.itsme{
+  width:100%;
+  order:-1;
+}
+
+.intro{
+  width:100%;
+}
+
+.projectcont{
+  width:40%;
+}
+
+}
